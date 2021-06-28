@@ -31,14 +31,6 @@ class SearchBar extends React.Component {
                                         onChange={this.handleChange}
                                     />
                                 </div>
-                                <button
-                                    name="Soy el botón"
-                                    type="submit"
-                                    className="btn btn-primary mb-2"
-                                // onClick={this.handleClick}
-                                >
-                                    Buscar
-                                </button>
                             </form>
                         </div>
 
