@@ -16,7 +16,6 @@ class SearchBar extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-2">
                             logo
@@ -44,7 +43,6 @@ class SearchBar extends React.Component {
                         </div>
 
                     </div>
-                </div>
             </React.Fragment>
         )
     }
