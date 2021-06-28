@@ -1,4 +1,6 @@
 import React from 'react';
+import './search-bar.css'
+import logo from '../logo.svg';
 
 class SearchBar extends React.Component {
     handleChange = e => {
@@ -18,15 +20,15 @@ class SearchBar extends React.Component {
             <React.Fragment>
                     <div className="row">
                         <div className="col-md-2">
-                            logo
+                            <img src={logo} alt="" className="logo-barra"/>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-6">
                             <form className="form-inline" onSubmit={this.handleSubmit} name="Form">
-                                <div className="form-group mx-sm-3 mb-2">
+                                <div className="busqueda">
                                     <input
                                         name="InputForm"
                                         type="text"
-                                        className="form-control"
+                                        id="buscar"
                                         placeholder="Busca una banda"
                                         onChange={this.handleChange}
                                     />
